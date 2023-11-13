@@ -28,7 +28,7 @@ from PyQt5.QtCore import QSize, Qt, QPoint, QByteArray, QTimer, QFileInfo, QPoin
 from PyQt5.QtGui import QImage, QCursor, QPixmap, QImageReader
 from PyQt5.QtWidgets import QMainWindow, QListWidget, QVBoxLayout, QToolButton, QHBoxLayout, QDockWidget, QWidget, \
     QSlider, QGraphicsOpacityEffect, QMessageBox, QListView, QScrollArea, QWidgetAction, QApplication, QLabel, QGridLayout, \
-    QFileDialog, QListWidgetItem, QComboBox, QDialog, QAbstractItemView, QSizePolicy
+    QFileDialog, QListWidgetItem, QComboBox, QDialog, QAbstractItemView
 
 __dir__ = os.path.dirname(os.path.abspath(__file__))
 
@@ -2469,7 +2469,6 @@ class MainWindow(QMainWindow):
         '''
             export PPLabel and CSV to JSON (PubTabNet)
         '''
-        import pandas as pd
 
         # automatically save annotations
         self.saveFilestate()

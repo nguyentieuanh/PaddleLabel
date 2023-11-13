@@ -26,7 +26,6 @@ import copy
 import logging
 import numpy as np
 import time
-import tools.infer.predict_rec as predict_rec
 import tools.infer.predict_det as predict_det
 import tools.infer.utility as utility
 from tools.infer.predict_system import sorted_boxes
@@ -36,7 +35,7 @@ from ppstructure.table.matcher import TableMatch
 from ppstructure.table.table_master_match import TableMasterMatcher
 from ppstructure.utility import parse_args
 import ppstructure.table.predict_structure as predict_strture
-from ocr import get_ocr_predictor
+from PaddleOCR.ocr import get_ocr_predictor
 from PIL import Image as im
 
 logger = get_logger()

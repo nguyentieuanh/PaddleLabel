@@ -1,4 +1,4 @@
-How to use PaddleLabel for labeling table recognition 
+## How to use PaddleLabel for labeling table recognition 
 
 1. Clone project PaddleLabel in github 
 2. cd folder PPOCRLabel => change directory in file labelconfig.py 
